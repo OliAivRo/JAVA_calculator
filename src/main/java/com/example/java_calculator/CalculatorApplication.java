@@ -23,28 +23,5 @@ public class CalculatorApplication extends Application {
         stage.setTitle("Welcome to calculator!");
         stage.setScene(scene);
         stage.show();
-
-
-
-        VBox vbox = new VBox();
-
-        GridPane gp = new GridPane();
-
-        Label lblTitle = new Label("Support Ticket");
-
-        Label lblEmail = new Label("Email");
-        TextField tfEmail = new TextField();
-
-        Label lblPriority = new Label("Priority");
-        ObservableList<String> priorities = FXCollections.observableArrayList("Medium", "High", "Low");
-        ComboBox<String> cbPriority = new ComboBox<>(priorities);
-
-        Label lblProblem = new Label("Problem");
-        TextField tfProblem = new TextField();
-
-        Label lblDescription = new Label("Description");
-        TextArea taDescription = new TextArea();
-
-
     }
 }
