@@ -1,0 +1,59 @@
+/* BACKGROUND */
+.anchor-pane {
+    -fx-background-color: linear-gradient(to bottom right, #ffe6f2, #fff5fb);
+    -fx-background-radius: 15;
+    -fx-padding: 10;
+}
+
+
+/* LABEL */
+.label {
+    -fx-font-family: "Segoe UI", "Poppins", sans-serif;
+    -fx-text-fill: #5b4a50;
+}
+
+
+/* SCREEN TO DISPLAY RESULT */
+#lab_displayScreen {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-alignment: center-right;
+    -fx-background-color: #ffffffcc;
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+    -fx-border-color: #f7cfe6;
+    -fx-border-radius: 10;
+}
+
+
+/* SCREEN TO CALCULATE */
+#lab_calculationSequence {
+    -fx-font-size: 16px;
+    -fx-text-fill: #a67b94;
+    -fx-alignment: center-right;
+    -fx-padding: 5;
+}
+
+
+/* BUTTONS */
+.button {
+    -fx-min-width: 4.40em;
+    -fx-min-height: 2.45em;
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-font-size: 2em;
+    -fx-text-fill: #5b4a50;
+    -fx-background-color: #ffeaf4;
+    -fx-effect: dropshadow(gaussian, rgba(255, 192, 203, 0.3), 6, 0, 0, 2);
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #ffcce5;
+}
+
+.button:pressed {
+    -fx-background-color: #ffb3d9;
+    -fx-translate-y: 2;
+}
+
+
